@@ -1,0 +1,14 @@
+{
+    "DISCO_H735G": {
+        "inherits": [
+            "MCU_STM32H735xG"
+        ],
+        "macros_add": [
+            "HSE_VALUE=25000000"
+        ],
+        "detect_code": [
+            "0875"
+        ],
+        "device_name": "STM32H735IGTx"
+    }
+}
