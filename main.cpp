@@ -28,16 +28,16 @@
 int main()
 {
     // Initialise the digital pin LED1 as an output
-    //DigitalOut led_1(LED1);
+    DigitalOut led_1(LED1);
     DigitalOut led_2(LED2);
 
     DigitalOut led_3(LED3);
 
 
     while (true) {
-        //sled_1=!led_1;
+        led_1=!led_1;
         led_2=!led_2;
        led_3=!led_3;
-        ThisThread::sleep_for(BLINKING_RATE);
+        //ThisThread::sleep_for(BLINKING_RATE);
     }
 }

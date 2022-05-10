@@ -15,7 +15,7 @@
  * Automatically generated from STM32CubeMX/db/mcu/STM32H735IGKx.xml
  */
 
-/* MBED TARGET LIST: DISCO_H735IGK */
+/* MBED TARGET LIST:  */
 
 #ifndef MBED_PINNAMES_H
 #define MBED_PINNAMES_H
@@ -378,10 +378,10 @@ typedef enum {
 } PinName;
 
 // Standardized LED and button names
-#define LED1     PG_8   // MEMS_LED
-#define LED2     PC_3   // USER_LED1
-#define LED3     PC_2   // USER_LED2
-#define BUTTON1  PC_13  // Blue button B2 used for wakeup
+#define LED1     PC_3   // TODO
+#define LED2    PC_2
+#define LED3 PF_7
+// #define BUTTON1  Px_x   // TODO
 
 #ifdef __cplusplus
 }
