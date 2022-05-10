@@ -1,0 +1,5 @@
+09:39:42 **** Incremental Build of configuration cortex-m-debug for project blinky_application.elf ****
+make all 
+Error: Cannot find the specified linker script. Check the linker settings in the build configuration.
+make: *** [makefile:85: fail-specified-linker-script-missing] Error 2
+"make all" terminated with exit code 2. Build might be incomplete.
