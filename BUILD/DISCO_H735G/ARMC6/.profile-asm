@@ -1,6 +1,6 @@
 {
     "flags": [
-        "--cpu=Cortex-M7",
+        "--cpu=Cortex-M7.fp.sp",
         "--ide=mbed"
     ],
     "macros": [],

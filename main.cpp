@@ -10,7 +10,7 @@
 #define BLINKING_RATE     500ms
 
 
-#ifdef LED1
+/*#ifdef LED1
 #undef LED1
 #define LED1 PC_3
 #endif
@@ -23,7 +23,7 @@
 #ifdef LED3
 #undef LED3
 #define LED3 PF_7
-#endif
+#endif*/
 
 int main()
 {
@@ -35,9 +35,9 @@ int main()
 
 
     while (true) {
-        led_1=!led_1;
+        //sled_1=!led_1;
         led_2=!led_2;
-        led_3=!led_3;
-        //ThisThread::sleep_for(BLINKING_RATE);
+       led_3=!led_3;
+        ThisThread::sleep_for(BLINKING_RATE);
     }
 }

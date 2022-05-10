@@ -1,7 +1,7 @@
 {
     "flags": [
         "--any_contingency",
-        "--cpu=Cortex-M7",
+        "--cpu=Cortex-M7.fp.sp",
         "--ide=mbed",
         "--keep=os_cb_sections",
         "--legacyalign",
@@ -52,7 +52,7 @@
         "DEVICE_WATCHDOG=1",
         "EXTRA_IDLE_STACK_REQUIRED",
         "HSE_VALUE=25000000",
-        "MBED_BUILD_TIMESTAMP=1652107586.8042061",
+        "MBED_BUILD_TIMESTAMP=1652165802.1950521",
         "MBED_TICKLESS",
         "STM32H735xx",
         "TARGET_CORTEX",

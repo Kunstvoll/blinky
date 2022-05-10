@@ -22,7 +22,7 @@
 #define __MBED_CONFIG_DATA__
 
 // Configuration parameters
-#define CLOCK_SOURCE                                                          USE_PLL_HSE_EXTC|USE_PLL_HSI                                                                     // set by target:MCU_STM32H7
+#define CLOCK_SOURCE                                                          USE_PLL_HSE_XTAL                                                                                 // set by target:DISCO_H735G
 #define LPTICKER_DELAY_TICKS                                                  0                                                                                                // set by target:MCU_STM32H7
 #define MBED_CONF_ALT1250_PPP_BAUDRATE                                        115200                                                                                           // set by library:ALT1250_PPP
 #define MBED_CONF_ALT1250_PPP_PROVIDE_DEFAULT                                 0                                                                                                // set by library:ALT1250_PPP
@@ -376,7 +376,7 @@
 #define MBED_CONF_TARGET_LSE_DRIVE_LOAD_LEVEL                                 RCC_LSEDRIVE_LOW                                                                                 // set by target:MCU_STM32H7
 #define MBED_CONF_TARGET_MPU_ROM_END                                          0x0fffffff                                                                                       // set by target:Target
 #define MBED_CONF_TARGET_RTC_CLOCK_SOURCE                                     USE_RTC_CLK_LSE_OR_LSI                                                                           // set by target:MCU_STM32
-#define MBED_CONF_TARGET_SYSTEM_POWER_SUPPLY                                  PWR_LDO_SUPPLY                                                                                   // set by target:MCU_STM32H735xG
+#define MBED_CONF_TARGET_SYSTEM_POWER_SUPPLY                                  PWR_DIRECT_SMPS_SUPPLY                                                                           // set by target:MCU_STM32H735xG
 #define MBED_CONF_TARGET_TICKLESS_FROM_US_TICKER                              0                                                                                                // set by target:Target
 #define MBED_CONF_TARGET_XIP_ENABLE                                           0                                                                                                // set by target:Target
 #define MBED_CONF_TELIT_HE910_BAUDRATE                                        115200                                                                                           // set by library:TELIT_HE910
